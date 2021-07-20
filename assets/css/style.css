@@ -1,0 +1,64 @@
+body
+{
+   background-image: url("background.jpg");
+   background-repeat: no-repeat ;
+   background-size: 100% 100%;
+   background-attachment: fixed;
+   color: solid black;
+}
+
+pre 
+{
+	padding: 0px;
+	margin: 0 0 0px;
+	background-color: #fff;
+	border: 0px;
+	font-size: 24px; 
+	vertical-align: middle;
+	margin: 0px;
+}
+
+input
+{
+	height: 50px;
+	width: 10cm;
+	font-size: 20px;
+}
+
+button
+{
+	height: 50px;
+	width: 5cm;
+	font-size: 20px;
+	background: #ccc;
+	padding-left: 12px;
+}
+
+.col_1
+{
+	height: 90px;
+	width: 5.5cm;
+	padding: 20px 0cm 20px 0.5cm;
+}
+
+.col_2
+{
+	height: 90px;
+	width: 11cm;
+	padding: 20px 0.5cm 20px 0.5cm;
+}
+
+.col_3
+{
+	height: 90px;
+	width: 5cm;
+	padding: 20px 0.5cm 20px 1cm;
+}
+
+.info
+{
+	height: 50px;
+	width: 5cm;
+	margin-left: 15px;
+	padding: 5px 5px 5px 0px;
+}

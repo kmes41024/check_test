@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>search</title>
+	
+	<link href="assets/css/root.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+	<div style = "opacity: 0.9">
+		<div class="modal-dialog" style="width:23cm">
+			<div class="modal-content">
+				<div class="modal-header" align="center" style = "height:65px;line-height:40px;">
+					<font style="font-family:'思源黑体 CN MEDIUM';font-size:32px;color:#000; " class="m-modal-title" align = "center">
+						彩光系统测量程序 v3.0
+					</font>
+				</div>
+				<div class="modal-body" align="center" style="font-family:'思源黑体 CN NORMAL';font-size:14px;padding: 0px 20.5px 0px 20px">
+					<div class="panel-body" style = "line-height: 7px;">
+						<form id="searchForm" onsubmit="return false" class="form-horizontal" method="post"><br>
+							<div class="form-area">
+								<div class="form-group" style = "margin-bottom: 0px;">
+									<table>
+										<tr>
+											<td class = "col_1">
+												<div class = "info">
+													<pre align = "right">客户姓名   :</pre>
+												</div>
+											</td>
+											<td class = "col_2">
+												<select name = "name" id = "name" style = "height:50px;width:10cm;font-size:20px;" onclick = "changeInfo()">
+											    </select>
+											</td>
+											<td class = "col_3">
+												<button class="form-control" style = "height:50px;width:3.5cm;font-size:20px;padding-left:12px;" onclick = "loadName()">更新</button>
+											</td>
+										</tr>
+										<tr>
+											<td class = "col_1">
+												<div class = "info">
+													<pre align = "right">应用市场   :</pre>
+												</div>
+											</td>
+											<td class = "col_2">
+												<input type = 'text' name = "market" id = "market" value = "" />
+											</td>
+											<td class = "col_3">
+											</td>
+										</tr>
+										<tr>
+											<td class = "col_1">
+												<div class = "info">
+													<pre align = "right">公司名称   :</pre>
+												</div>
+											</td>
+											<td class = "col_2">
+												<input type = 'text' name = "company" id = "company" value = "" />
+											</td>
+										</tr>
+										<tr>
+											<td class = "col_1">
+												<div class = "info">
+													<pre align = "right">手机号     :</pre>
+												</div>
+											</td>
+											<td class = "col_2">
+												<input type = 'text' name = "mobile" id = "mobile" value = "" />
+											</td>
+											<td class = "col_3">
+											</td>
+										</tr>
+										<tr>
+											<td class = "col_1" style = "padding-left:1cm;">
+												<button type = "button" class="form-control" onclick = "systemOpen()">启动采光系统</button>
+											</td>
+											<td class = "col_2" style = "padding-left:7cm;">
+											</td>
+											<td class = "col_3">
+												<a href = "#">
+													<button type = "button" class="form-control" style = "width:3.5cm;">离开</button>
+												</a>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>		
+	</div>
+</body> 
+	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/bootstrap/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/plugins.js"></script>
+	<script type="text/javascript" src="layui/layui.all.js"></script>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+</html>
