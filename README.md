@@ -1,6 +1,6 @@
 # 彩光系統測量程序
 
-![](https://drive.google.com/file/d/1k56hCuR9lVfq0PxF2E0w0NmR9lq8V64P/view?usp=sharing)
+![](https://github.com/kmes41024/check_test/tree/master/assets/img)
 
 ### 功能
 客戶姓名處只會顯示尚未測驗者，供後台管理者選擇。點選更新鍵可即時刷新尚未測驗者的姓名。
